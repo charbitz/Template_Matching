@@ -13,20 +13,14 @@ for ir = 1:Ir-Rr+1,
     end,
 end
  
- 
 % similarity from distance
- 
- 
- 
-%maximun and minimum
+
+% maximun and minimum
  mx= max(D(:));
  mn = min(D(:));
 
 % normalized similarity
  S = 1-(D - mn ) ./ (mx - mn);
  
- 
-
-
 end
 
