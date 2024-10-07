@@ -26,16 +26,6 @@ For the selected test images, the following results were observed:
 - **Higher Weight on Luma Component (ycbcr2)**: The algorithm struggles to detect the object effectively.
 - **Higher Weight on Chroma Components (ycbcr3)**: The algorithm performs as well as in the RGB format, showing successful template matching.
 
-## How to Use
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/template-matching-project.git
-    ```
-2. Open the MATLAB environment and load the provided scripts.
-3. Run `script_rgb.m` or `script_ycbcr.m` to execute template matching on the test images.
-4. Modify the input images or parameters in the script to experiment with different scenarios.
-
 ## Conclusion
 
 The project demonstrated that template matching yields better results on **RGB** images compared to **grayscale** images, particularly when using the **mean method**. When applied to **YCbCr** format images, the algorithm performed well when the chroma components were given more weight than the luma component.
